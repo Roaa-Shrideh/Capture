@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capture</title>
+
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normlize.css">
+    <!-- Font awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- main template css file-->
+    <link rel="stylesheet" href="css/project.css">
+    <!-- Google Font open-sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <!-- For Icon -->
+    <link rel="icon" href="file:///C:/Users/Willson/Downloads/camera-solid%20(1).svg" type="image/svg">
+
+</head>
+
+<body>
+    <!-- Start Header -->
+
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="img/logo5.png" alt="Logo">
+            </a>
+            <nav>
+                <i class="fas fa-bars toggle-menu"></i>
+                <ul>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <!-- <li><a href="#">Team</a></li> -->
+
+                    <li><a href="#about-us">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="form">
+
+                    <button id="form-open">Login</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- start heroSection -->
+    <div class="heroSection" id="home">
+        <div class="overlay"></div>
+        <div class="text">
+            <div class="content">
+                <h2>Welcome To <span>Capture</span> Studio</h2>
+                <p>Your moments deserve to be captured professionally <br> Book your unique session</p>
+            </div>
+        </div>
+        <i class="fas fa-angle-left change-background"></i>
+        <i class="fas fa-angle-right change-background"></i>
+        <ul class="bullets">
+            <li></li>
+            <li class="active"></li>
+            <li></li>
+        </ul>
+        <!--start register-->
+        <div class="from_container">
+            <i class="fas fa-times form_close"></i>
+            <!--login form -->
+            <div class="form login_form">
+                <form action="#">
+                    <h2>Login</h2>
+
+                    <div class="input_box">
+                        <input type="email" placeholder="Enter your email" required/>
+                        <i class="fas fa-envelope email"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Enter your password" required/>
+                        <i class="fas fa-lock password"></i>
+                        <i class="fas fa-eye-slash pw_hide"></i>
+                    </div>
+                    <div class="option_field">
+                        <span class="checkbox">
+                            <input type="checkbox" id="check">
+                            <label for="check">Remember me</label>
+                        </span>
+                        <a href="#" class="forgot_pw">Forgot password?</a>
+                    </div>
+
+                    <button class="button">Login Now</button>
+
+                    <div class="login_signup">
+                        Don't have an account? <a href="#" id="signup-btnn">Signup</a>
+                    </div>
+                </form>
+            </div>
+
+            <!--*****************************************************************************-->
+            <!--Signup form-->
+            <div class="form signup_form">
+                <form action="#">
+                    <h2>Signup</h2>
+
+                    <div class="input_box">
+                        <input type="email" placeholder="Enter your email" required/>
+                        <i class="fas fa-envelope email"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Create password" required/>
+                        <i class="fas fa-lock password"></i>
+                        <i class="fas fa-eye-slash pw_hide"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="confirm password" required/>
+                        <i class="fas fa-lock password"></i>
+                        <i class="fas fa-eye-slash pw_hide"></i>
+                    </div>
+
+                    <button class="button">Signup Now</button>
+
+                    <div class="login_signup">
+                        Already have an account? <a href="#" id="login-btnn">Login</a>
+                    </div>
+                </form>
+            </div>
+            <!--end signup-->
+            <!--*****************************************************************************-->
+
+        </div>
+        <!--end register -->
+    </div>
+    <!-- End heroSection -->
+
+    <!-- Start Services -->
+    <div class="services" id="service">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Services</h2>
+                <p>Our Services Are Designed to Turn Your Moments into Lasting Memories Whether through professional
+                    photo sessions, stunning videos, or meticulous edits, we are committed to delivering results that
+                    reflect your vision and tell your story.</p>
+            </div>
+            <div class="services-container">
+                <div class="srv-box">
+                    <i class="fa-solid fa-camera"></i>
+                    <div class="text">
+                        <h3>Shooting</h3>
+                        <p>Our shooting service captures precious moments with exceptional detail and clarity. Perfect
+                            for various events and occasions, we ensure high-quality images that reflect the true
+                            essence of the moment. Our talented team uses the latest technology to achieve the best
+                            lighting and angles for stunning photos.</p>
+
+                    </div>
+                </div>
+                <div class="srv-box">
+                    <i class="fa-solid fa-video"></i>
+                    <div class="text">
+                        <h3>Videos</h3>
+                        <p>We offer professional video recording services that capture your important moments with high
+                            definition and precision. Whether you need a promotional video, wedding coverage, or event
+                            documentation, we deliver videos that tell stories and convey emotions clearly.</p>
+
+                    </div>
+                </div>
+                <div class="srv-box">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <div class="text">
+                        <h3>Editing</h3>
+                        <p>Our editing service provides comprehensive enhancements to your photos and videos, making
+                            them more professional and engaging. Our skilled editing team uses the latest software to
+                            make necessary adjustments, from color correction and blemish removal to adding special
+                            effects.</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--End services  -->
+
+    <!-- Start subsicribe -->
+    <section id="subscribe">
+        <div class="container wow fadeInUp">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3 class="subscribe-title">Subscribe For Updates</h3>
+                    <p class="subscribe-text">Join our 1000+ subscribers and get access to the latest tools, freebies,
+                        product announcements and much more!</p>
+                </div>
+                <div class="col-md-4 subscribe-btn-container">
+                    <a class="subscribe-btn" href="#">Subscribe Now</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end subsicribe -->
+
+    <!-- Start About -->
+    <div class="about" id="about-us">
+        <div class="container">
+            <div class="main-heading">
+                <h2>About Us</h2>
+                <p>Welcome to our photography booking site!<br> We offer you a unique and special experience to capture
+                    your most beautiful moments with high quality and professionalism. Whether you're looking for a
+                    personal photoshoot, a family session, or even corporate photos, we are here to meet all your
+                    needs.
+                </p>
+            </div>
+
+
+
+            <!-- <div class="content">
+                <img src="img/home25.jpg" alt="">
+                <p>Our vision is to make each photoshoot an exceptional experience, with attention to every detail.
+                    We
+                    believe photography is an art that tells your story and makes your moments last forever. <br>Ease of
+                    Booking: "Our booking process is simple and fast - you can choose the right photographer
+                    and set up an appointment within minutes." <br>
+                    Variety in Styles: "We have a team of professional photographers specializing in various types
+                    of photography, including portraits, family sessions, event photography, and more." <br>
+                    Flexible Locations: "You can choose the location you prefer, whether it's a studio, outdoors, or
+                    any location you desire."<br>All you need to do is browse the available photographers, choose the
+                    right one for you, and
+                    select a
+                    convenient time and place. After booking, we’ll contact you to confirm the details and ensure
+                    the best
+                    experience. <br> Let us help you capture your beautiful moments professionally. Book your session
+                    today and leave
+                    it to
+                    us to turn it into unforgettable memories.</p>
+
+            </div> -->
+
+            <section class="features">
+                <h2>Our Features</h2>
+                <div class="feature-container">
+                    <div class="feature">
+                        <i class="icon fas fa-camera"></i>
+                        <h3>High-Quality Equipment</h3>
+                        <p>We use the latest cameras and equipment to ensure stunning, high-resolution photos.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="icon fas fa-clock"></i>
+                        <h3>Easy Booking</h3>
+                        <p>Book your session in just a few clicks with our user-friendly platform.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="icon fas fa-map-marker-alt"></i>
+                        <h3>Flexible Locations</h3>
+                        <p>Choose from studio, outdoor, or any location you desire to suit your needs.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="icon fas fa-thumbs-up"></i>
+                        <h3>Customer Satisfaction</h3>
+                        <p>We ensure that every client leaves happy with unforgettable moments captured.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="icon fas fa-images"></i>
+                        <h3>Variety in Style</h3>
+                        <p>Expertise in portraits, events, family sessions, and more. Our team adapts to your unique
+                            needs, ensuring every moment is captured beautifully and creatively.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="icon fas fa-coins"></i>
+                        <h3>Affordable Pricing</h3>
+                        <p>Enjoy high-quality services at affordable rates, making luxury accessible to everyone.</p>
+                    </div>
+
+                </div>
+            </section>
+            <div class="question">
+                <div class="question-header">Frequently Asked Questions</div>
+                <div class="question-item">
+                    <div class="question-q">How do I book a session?</div>
+                    <div class="question-answer">Simply click on "Book Now," choose your photographer and date, and
+                        complete the booking in minutes.</div>
+                </div>
+                <div class="question-item">
+                    <div class="question-q">Can I cancel or reschedule?</div>
+                    <div class="question-answer">Yes, you can cancel or reschedule up to 24 hours before the session
+                        without any penalty.</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+    <!-- Start Portofilio -->
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="main-heading">
+                <h2>portofilio</h2>
+                <p>"Discover Our Photographic Masterpieces"</p>
+                <p>Explore a collection of stunning photos captured by our professional photographers, blending
+                    creativity and craftsmanship to document the most beautiful moments. In the Portfolio section,
+                    you'll find a variety of styles and shots from each photographer that express unique stories,
+                    whether in personal portraits,
+                    events, or extraordinary locations. Let us take you on a visual journey that inspires you to choose
+                    what suits your taste
+
+                </p>
+            </div>
+            <div class="photographers">
+                <!--يحتوي على 3 مصورين-->
+
+                <div class="photographer">
+                    <div class="info">
+                        <img src="img/photographer (1).jpeg" alt="">
+                        <h3>faris ali </h3>
+                        <p>photographer</p>
+                        <div class="show">
+                            <a href="photographer1.html" target="_blank">portofilio</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="photographer">
+                    <div class="info">
+                        <img src="img/photographer (2).jpeg" alt="">
+                        <h3>sara amjad </h3>
+                        <p>photographer</p>
+                        <div class="show">
+                            <a href="photographer2.html" target="_blank">portofilio</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="photographer">
+                    <div class="info">
+                        <img src="img/photographer (3).jpg" alt="">
+                        <h3>khaled ahmed </h3>
+                        <p>photographer</p>
+                        <div class="show">
+                            <a href="photographer3.html" target="_blank"> portofilio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Portofilio -->
+    <!--Start pricing-->
+    <div class="pricing" id="pricing">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Pricing</h2>
+                <p>We offer flexible photography packages at competitive prices to suit all your needs.<br>
+                    Ensuring high quality to capture your special moments.</p>
+            </div>
+            <div class="plans">
+                <!--يحتوي على 3 اجزاء-->
+
+                <div class="plan">
+                    <div class="head">
+                        <h3>Basic</h3>
+                        <!-- <img src="img/wedding.JPG" alt=""> -->
+                        <span>$20jod</span>
+                        <ul>
+                            <li>30-minutes session</li>
+                            <li> 10 Edited-Photos </li>
+                            <li>Studio location </li>
+                            <li>Basic Editing </li>
+                            <!-- <li>No additionsl services </li> -->
+                        </ul>
+                        <div class="foot">
+                            <a href="#">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Premium</h3>
+                        <!-- <img src="img/gradution.JPG" alt=""> -->
+                        <span>$30jod</span>
+                        <ul>
+                            <li>1-hour session</li>
+                            <li> 30 edited-Photos </li>
+                            <li>Studio or outdoor </li>
+                            <li>Advanced Editing </li>
+                            <!-- <li>Available for extra free</li> -->
+                        </ul>
+                        <div class="foot">
+                            <a href="#">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="plan active">
+                    <div class="head">
+                        <h3>Pro</h3>
+                        <span>$40jod</span>
+                        <ul>
+                            <li>2-hour session</li>
+                            <li> 50 edited-Photos </li>
+                            <li>Any special location</li>
+                            <li>Short vedio clip </li>
+                            <!-- <li>Priority scheduling </li> -->
+                        </ul>
+                        <div class="foot">
+                            <a href="#">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Platinum</h3>
+                        <span>$50jod</span>
+                        <ul>
+                            <li>3-hour session</li>
+                            <li>All captured photos</li>
+                            <li>Custom location</li>
+                            <li>premium albums </li>
+                            <!-- <li>Personalized consulation   </li> -->
+                        </ul>
+                        <div class="foot">
+                            <a href="#">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- <p class="contact-text"> Contact us if you have specil request</p>
+            <a href="#" class="contact-link"> Contact Us</a> -->
+        </div>
+    </div>
+    <!--End Pricing-->
+
+    <!--Start Contact-->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Contact Us</h2>
+                <p>Feel free to contact us for any question or pesonalized request<br>
+                    We're happy to help make your experience seamless.</p>
+            </div>
+            <div class="content">
+                <form action="">
+                    <input class="main-input" type="text" name="name" placeholder="Your Name">
+                    <input class="main-input" type="email" name="mail" placeholder="Your Email">
+                    <textarea class="main-input" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message">
+                </form>
+                <div class="info">
+                    <h4>Get In Touch</h4>
+                    <span class="phone">+962 77 1234 5678</span>
+                    <span class="phone">+962 79 1234 5678</span>
+                    <h4> Where We Are</h4>
+                    <address>
+                        University Street<br>
+                        Irbid , Jordan<br>
+                        +962 123 4567 890<br>
+                    </address>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End contact-->
+
+
+
+
+    <!--start footer section-->
+    <footer>
+        <div class="row">
+            <div class="col">
+                <img src = "img/logo5.png" class="logoo">
+                <p>In a world full of beautiful moments, we help you preseve your memories with 
+                    the highest quality and preision. Book your photography session now, and let us 
+                    tell your story through our professional lenses.
+                </p>
+            </div>
+            <div class="col">
+                <h3>Studio <div class="underline"><span></span></div></h3>
+                <p>University Street</p>
+                <p>Irbid , Jordan</p>
+                <p class="email-id">capture@gmail.com</p>
+                <h4>+962 123 4567 890</h4>
+            </div>
+            <div class="col">
+                <h3>Links<div class="underline"><span></span></div></h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Team</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Website-Update<div class="underline"><span></span></div></h3>
+                <form class="forrm">
+                    <i class="far fa-envelope email"></i>
+                    <input type="email" placeholder="enter your email" required>
+                    <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                </form>
+                <div class="soical-icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Created by - Sara, Roaa and Razan | All Rights © Reserved</p>
+    </footer>
+<!--end footer section-->
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
